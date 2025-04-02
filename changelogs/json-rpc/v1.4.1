@@ -1,0 +1,9 @@
+# Sisk JSON-RPC v1.4.1
+
+- Feat: added support for `Task<>` and `IAsyncEnumerable<>` results for web methods.
+- Feat: the documentation descriptor now orders methods by their name.
+- Feat: improved the documentation descriptor to generate a better type name for generic types.
+- Fix: optional method parameters were not having their default values applied to the method invocation.
+- Fix: exceptions were not being thrown when the `HttpServerConfiguration.ThrowExceptions` was `true`.
+- Fix: handled exceptions was returning a OK JSON-RPC response when the request was not identified by an ID.
+- Fix: fixed a bug where request without an ID were not being sent to the client.
