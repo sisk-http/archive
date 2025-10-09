@@ -111,3 +111,6 @@ property with spaces = "as you see, properties
 ```
 
 Values that do not begin with quotes have whitespace characters trimmed from the beginning and the end.
+
+# Revision 1.5
+
